@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+	<header>
+		<link rel="stylesheet" href="styling.css">
+		<h1>Rock Paper Scissors</h1>
+	</header>
+
+	<div class="score-board">
+		<div id="user-label" class="badge">user</div>
+		<div id="computer-label" class="badge">comp</div>
+		<span id="user-score">0</span><span>:</span><span id="computer-score">0</span>
+	</div>
+
+	<div id="result">
+		<p id="displayWhoWins"></p>
+		<p id="displayTie"></p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="r">
+			<img src="images/rock.jpg" alt="">			
+		</div>
+		<div class="choice" id="p">
+			<img src="images/paper.jpg" alt="">			
+		</div>
+		<div class="choice" id="s">
+			<img src="images/scissors.jpg" alt="">			
+		</div>		
+	</div>
+
+	<p id="action-message">Make your move.</p>
+	<div id="displayNumOfRounds">Rounds:00</div>
+	<script src="script.js"></script>
+</body>
+<html>
